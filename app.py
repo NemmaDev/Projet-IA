@@ -24,9 +24,18 @@ st.markdown("""
     }
     .stButton>button {
         width: 100%;
-        background-color: #ff4b4b;
+        background-color: #ff4b4b; /* Rouge */
         color: white;
         margin-top: 1rem;
+        font-weight: bold;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+    .stButton>button:hover {
+        background-color: #d43f3f; /* Rouge plus foncé au survol */
+        color: white !important; /* Assurer que le texte reste blanc */
     }
     .info-box {
         padding: 1rem;
@@ -34,6 +43,7 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     </style>
+
     """, unsafe_allow_html=True)
 
 # Vérification des fichiers nécessaires
