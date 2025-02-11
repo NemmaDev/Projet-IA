@@ -44,7 +44,7 @@ if missing_files:
     st.stop()
 
 # Chargement du modèle et du scaler
-@st.cache(allow_output_mutation=True)
+@st.cache_resource
 def load_model():
     model = joblib.load("best_model.pkl")
     scaler = joblib.load("scaler.pkl")
@@ -144,9 +144,6 @@ if st.button("Analyser le risque cardiaque"):
                 """, unsafe_allow_html=True)
         
         # Affichage des probabilités détaillées
-        st.markdown("### 📊 Niveau de Risque Cardiaque")
-        risk_percentage = int(proba[1] * 100)
-        st.progress(risk_percentage)
 
         st.write("\n📊 Détail des probabilités :")
         col1, col2 = st.columns(2)
