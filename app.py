@@ -24,7 +24,7 @@ st.markdown("""
     }
     .stButton>button {
         width: 100%;
-        background-color: #ff4b4b; /* Rouge */
+        background-color: #ff4b4b; 
         color: white;
         margin-top: 1rem;
         font-weight: bold;
@@ -34,8 +34,8 @@ st.markdown("""
         transition: background-color 0.3s ease-in-out;
     }
     .stButton>button:hover {
-        background-color: #d43f3f; /* Rouge plus foncé au survol */
-        color: white !important; /* Assurer que le texte reste blanc */
+        background-color: #d43f3f; 
+        color: white !important; 
     }
     .info-box {
         padding: 1rem;
