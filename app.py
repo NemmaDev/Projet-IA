@@ -170,3 +170,14 @@ st.markdown("""
 l'avis d'un professionnel de santé. Consultez toujours un médecin pour un diagnostic médical.
 </div>
 """, unsafe_allow_html=True)
+
+# Footer personnalisé
+st.markdown("""
+    <footer style="background-color: #f1f1f1; padding: 1rem; text-align: center; border-top: 1px solid #ccc; font-size: 0.9em;">
+        <p>&copy; 2025 Prédiction Maladie Cardiaque. Tous droits réservés.</p>
+        <p>Développé par Nemmata SANFO & Cédric NANA</p>
+        <p>
+            <a href="https://github.com/NemmaDev/Projet-IA" target="_blank">GitHub</a>
+        </p>
+    </footer>
+""", unsafe_allow_html=True)
