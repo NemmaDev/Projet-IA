@@ -173,7 +173,7 @@ l'avis d'un professionnel de santé. Consultez toujours un médecin pour un diag
 st.markdown("---")
 # Footer personnalisé
 st.markdown("""
-    <footer style="background-color: #ffff; padding: 1rem; text-align: center; font-size: 0.9em; font-weight: bold; color:#0000;">
+    <footer style="background-color: #ffff; padding: 1rem; text-align: center; font-size: 0.9em; font-weight: bold; color:#000000;">
         <p>&copy; 2025 Prédiction Maladie Cardiaque. Tous droits réservés.</p>
         <p>Développé par Nemmata SANFO & Cédric NANA</p>
         <p>
